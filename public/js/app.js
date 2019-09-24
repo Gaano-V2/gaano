@@ -5084,7 +5084,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -79775,10 +79774,7 @@ var render = function() {
                             on: { click: _vm.s_login_m }
                           },
                           [
-                            _c("img", {
-                              staticClass: "img-fluid px-1",
-                              attrs: { src: "/tools/login-gly.png" }
-                            }),
+                            _c("i", { staticClass: "fas fa-sign-in-alt mr-1" }),
                             _vm._v(" Login")
                           ]
                         ),
@@ -79795,11 +79791,10 @@ var render = function() {
                                 attrs: { to: { path: "/register" } }
                               },
                               [
-                                _c("img", {
-                                  staticClass: "img-fluid px-1",
-                                  attrs: { src: "/tools/signip-gly.png" }
+                                _c("i", {
+                                  staticClass: "fas fa-user-plus mr-1"
                                 }),
-                                _vm._v("Signup")
+                                _vm._v(" Signup")
                               ]
                             )
                           ],
@@ -79818,7 +79813,7 @@ var render = function() {
       _c(
         "modal",
         {
-          staticClass: "rounded",
+          staticClass: "rounded login-form",
           attrs: {
             name: "login-modal",
             height: 399,

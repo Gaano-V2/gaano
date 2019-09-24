@@ -44,8 +44,8 @@
         <template v-else>
 
             <li class="nav-item text-white px-3"><img src="/tools/reserved-gly.png" class="img-fluid px-1"> Reserve</li>
-            <li class="nav-item text-white px-3" style="cursor: pointer" @click="s_login_m"><img src="/tools/login-gly.png" class="img-fluid px-1"> Login</li>
-            <li class="nav-item px-3"><router-link class="text-white" style="text-decoration: none;" :to="{ path: '/register'}"><img src="/tools/signip-gly.png" class="img-fluid px-1">Signup</router-link></li>
+            <li class="nav-item text-white px-3" style="cursor: pointer" @click="s_login_m"><i class="fas fa-sign-in-alt mr-1"></i> Login</li>
+            <li class="nav-item px-3"><router-link class="text-white" style="text-decoration: none;" :to="{ path: '/register'}"><i class="fas fa-user-plus mr-1"></i> Signup</router-link></li>
 
         </template>
     </ul>
@@ -54,7 +54,7 @@
   </div>
 </nav>
 
-<modal class="rounded"
+<modal class="rounded login-form"
     name="login-modal"
     :height="399"
     :width="301"

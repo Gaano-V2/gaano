@@ -45,7 +45,6 @@
                             <option value="1">Male</option>
                             <option value="2">Female</option>
                         </select>
-
                         <input v-model="register_data.bday"
                         type="date" class="form-control mb-3" placeholder="Birthday" required>
 
