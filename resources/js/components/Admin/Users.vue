@@ -83,11 +83,11 @@ export default {
                 type: 'file',
               },
               {
-                label: 'Firstname',
+                label: 'First Name',
                 field: 'profile.fname',
               },
               {
-                label: 'Lastname',
+                label: 'Last Name',
                 field: 'profile.lname',
               },
               {

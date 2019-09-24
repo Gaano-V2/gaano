@@ -3762,10 +3762,10 @@ __webpack_require__.r(__webpack_exports__);
         field: 'avatar',
         type: 'file'
       }, {
-        label: 'Firstname',
+        label: 'First Name',
         field: 'profile.fname'
       }, {
-        label: 'Lastname',
+        label: 'Last Name',
         field: 'profile.lname'
       }, {
         label: 'Email Address',
@@ -5469,7 +5469,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
 //
 //
 //
@@ -79398,7 +79397,7 @@ var render = function() {
                     staticClass: "form-control mb-3",
                     attrs: {
                       type: "text",
-                      placeholder: "Firstname",
+                      placeholder: "First Name",
                       required: ""
                     },
                     domProps: { value: _vm.register_data.fname },
@@ -79426,7 +79425,7 @@ var render = function() {
                       }
                     ],
                     staticClass: "form-control mb-3",
-                    attrs: { type: "text", placeholder: "Middlename" },
+                    attrs: { type: "text", placeholder: "Middle Name" },
                     domProps: { value: _vm.register_data.mname },
                     on: {
                       input: function($event) {
@@ -79454,7 +79453,7 @@ var render = function() {
                     staticClass: "form-control mb-3",
                     attrs: {
                       type: "text",
-                      placeholder: "Lastname",
+                      placeholder: "Last Name",
                       required: ""
                     },
                     domProps: { value: _vm.register_data.lname },
@@ -80141,9 +80140,7 @@ var staticRenderFns = [
         staticStyle: { "background-image": "url('/tools/bg.png')" }
       }),
       _vm._v(" "),
-      _c("br"),
-      _vm._v(" "),
-      _c("h1", [_vm._v("dsadsa")])
+      _c("br")
     ])
   }
 ]

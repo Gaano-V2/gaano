@@ -31,13 +31,13 @@
                         type="password" class="form-control mb-3" placeholder="Password Confirmation" required>
 
                         <input v-model="register_data.fname"
-                        type="text" class="form-control mb-3" placeholder="Firstname" required>
+                        type="text" class="form-control mb-3" placeholder="First Name" required>
 
                         <input v-model="register_data.mname"
-                        type="text" class="form-control mb-3" placeholder="Middlename">
+                        type="text" class="form-control mb-3" placeholder="Middle Name">
 
                         <input v-model="register_data.lname"
-                        type="text" class="form-control mb-3" placeholder="Lastname" required>
+                        type="text" class="form-control mb-3" placeholder="Last Name" required>
 
                         <select v-model="register_data.gender"
                         class="form-control mb-3" required>
