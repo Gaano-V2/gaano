@@ -54,7 +54,7 @@
   </div>
 </nav>
 
-<modal class="rounded login-form"
+<modal class="rounded login-form sample"
     name="login-modal"
     :height="399"
     :width="301"

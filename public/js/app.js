@@ -79813,7 +79813,7 @@ var render = function() {
       _c(
         "modal",
         {
-          staticClass: "rounded login-form",
+          staticClass: "rounded login-form sample",
           attrs: {
             name: "login-modal",
             height: 399,
